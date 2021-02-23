@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoriaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/historia"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Teotihuacan es el sitio más explorado de Mesoamérica, ya que los primeros trabajos con fines de investigación datan del siglo XVIII, cuando Don Carlos de Sigüenza y Góngora exploró el edificio adosado a la Pirámide de la Luna. A finales del siglo XIX, bajo la figura de la Inspección General de Monumentos de la República, Don Leopoldo Batres y Huerta realiza exploraciones en diversos edificios aledaños a la Calzada de los Muertos, descubriendo murales y esculturas, y en 1905 emprendió trabajos en la Pirámide del Sol, bajo los auspicios del gobierno de Porfirio Díaz, para la conmemoración del Primer Centenario de la Independencia del país, impulsando el desarrollo de las disciplinas antropológicas." />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/teoti" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A partir de la intervención de la Pirámide del Sol se adquirieron terrenos  por parte del gobierno federal para la apertura oficial de la primera zona arqueológica y museo de sitio de México.
+
+Posteriormente el desarrollo de los trabajos de la Dirección de Antropología bajo el liderazgo de Manuel Gamio en 1917, representa una de las experiencias más enriquecedoras en el trabajo social, la investigación arqueológica y el impulso para el progreso regional, que reflejó el ímpetu pos revolucionario que daría forma a muchas de las instituciones aún vigentes en el Estado contemporáneo mexicano.
+
+En este sitio arqueológico se han desarrollado 2 de los proyectos de investigación más grandes en la historia de México: el Proyecto “Teotihuacan 1962-1964” y el proyecto “Teotihuacan 1980-1982”, además de uno de los megaproyectos planteados durante la década de los años noventa por el gobierno federal, conocido como “Teotihuacan 1992-1994”. La investigación en el sitio es permanente  e interdisciplinaria, pues prácticamente todas las disciplinas antropológicas encuentran temas de trabajo en el sitio, el cual es objeto de estudio tanto por instituciones académicas nacionales como internacionales.
+
+Teotihuacan se ha convertido en un estandarte para los mexicanos en la defensa y resguardo del Patrimonio Cultural Nacional, su monumento principal, la Pirámide del Sol, es un icono de la identidad nacional, sobre todo como un elemento relevante del pasado prehispánico. Los restos arqueológicos de la antigua ciudad del Clásico en Teotihuacan, representan a México en el ámbito internacional, ya que fue el primer sitio de nuestro país declarado tesoro del Patrimonio Mundial, por la UNESCO en 1987." />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
